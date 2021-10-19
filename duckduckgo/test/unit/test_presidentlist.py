@@ -27,5 +27,5 @@ def test_president_api_call():
                     president_list.remove(president)
                     break
 
-    assert len(president_list) is 0
+    assert len(president_list) == 0
 
